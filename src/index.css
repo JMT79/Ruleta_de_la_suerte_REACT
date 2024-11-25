@@ -165,7 +165,7 @@
 
   .central {
     width: 30px;
-    top: 80px;
+    top: 96px;
   }
 
   .barra {
@@ -186,7 +186,7 @@
 
   .premio {
     width: 200px;
-    margin: 4% auto;
+    margin: 15% auto;
     padding: 10px;
     font-size: 1.3rem;
   }
