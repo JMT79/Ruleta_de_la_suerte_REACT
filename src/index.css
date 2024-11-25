@@ -1,1 +1,195 @@
-@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap);.finPartida,.invisible{visibility:hidden}.titulo{font-size:2rem;text-align:center;margin:1% auto;color:rgba(0,0,0,.91)}.contenedor{position:relative;margin:40% auto 0;text-align:center;width:720px}.ruleta{width:500px;height:500px;background-size:cover;background-position:center;margin:0 auto 15px}.central{position:absolute;left:0;right:0;margin:auto;width:120px;top:174px}.central img{width:100%}.barra{background-color:#4d4d4d;width:250px;height:20px;border-radius:12px;padding:4px;margin:15px auto 10px}.barra_int{border-radius:8px;width:0;height:20px;background-color:orange;animation:.8s ease-in-out infinite animacionBarra}.empezar{margin-top:20px;width:130px;height:70px;border-radius:12px;background-color:#28d92e;font-size:1.5rem;color:#fff;border:none;cursor:pointer;padding:10px;transition:transform .2s}.invisible,.premio{margin:5% auto;padding:20px;border-radius:8px}.empezar:hover{transform:scale(1.1)}.premio{width:600px;color:#fff;font-size:1.6rem;background-color:#0064fb}.invisible{width:300px;color:#060606}.monedas,.tiradas{position:absolute;top:20%;width:280px;padding:6px}.monedas{left:2%}.monedas img,.tiradas img{width:80px}.tiradas{right:2%}.cartera,.ticket{margin:0 auto 20px}.parado{animation-play-state:paused}.btnEmpezarDenuevo{width:200px;height:60px;border-radius:10px;background-color:#4d4d4d;color:#fff}@keyframes animacionBarra{0%,100%{width:0}50%{width:100%}}@media screen and (max-width:550px){.titulo{font-size:18px}.contenedor{width:200px}.ruleta{width:180px;height:180px;margin:0 auto 15px}.barra,.barra_int{height:15px}.central{width:40px;top:66px}.barra{width:180px;margin:10px auto 8px}.empezar{width:96px;height:60px;font-size:1.1rem}.premio{width:180px;padding:10px;font-size:1.3rem}.invisible{width:140px;margin:2% auto;padding:10px;border-radius:6px}.monedas,.tiradas{top:8%;width:80px}.monedas{left:2%}.monedas img{width:20px}.tiradas{right:2%}.tiradas img{width:20px;padding:2px}.cartera,.ticket{font-size:12px}.btnEmpezarDenuevo{width:100px;height:40px;border-radius:8px}}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+.titulo {
+  font-size: 2rem;
+  text-align: center;
+  margin: 1% auto;
+  color: rgba(0, 0, 0, 0.91);
+}
+.contenedor {
+  position: relative;
+  margin: 40% auto 0;
+  text-align: center;
+  width: 720px;
+}
+.ruleta {
+  width: 500px;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto 15px;
+}
+.central {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 120px;
+  top: 174px;
+}
+.central img {
+  width: 100%;
+}
+.barra {
+  background-color: #4d4d4d;
+  width: 250px;
+  height: 20px;
+  border-radius: 12px;
+  padding: 4px;
+  margin: 15px auto 10px;
+}
+.barra_int {
+  border-radius: 8px;
+  width: 0;
+  height: 20px;
+  background-color: orange;
+  animation: animacionBarra 0.8s ease-in-out infinite;
+}
+.empezar {
+  margin-top: 20px;
+  width: 130px;
+  height: 70px;
+  border-radius: 12px;
+  background-color: rgb(40, 217, 46);
+  font-size: 1.5rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  transition: transform 0.2s ease;
+}
+.empezar:hover {
+  transform: scale(1.1);
+}
+.premio {
+  width: 600px;
+  margin: 5% auto;
+  padding: 20px;
+  color: white;
+  border-radius: 8px;
+  font-size: 1.6rem;
+  background-color: rgb(0, 100, 251);
+}
+.invisible {
+  width: 300px;
+  margin: 5% auto;
+  padding: 20px;
+  color: #060606;
+  border-radius: 8px;
+  visibility: hidden;
+}
+.monedas {
+  position: absolute;
+  left: 2%;
+  top: 20%;
+  width: 280px;
+  padding: 6px;
+}
+.monedas img {
+  width: 80px;
+}
+.tiradas {
+  position: absolute;
+  right: 2%;
+  top: 20%;
+  width: 280px;
+  padding: 6px;
+}
+.tiradas img {
+  width: 80px;
+}
+.cartera, .ticket {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.parado {
+  animation-play-state: paused;
+}
+.finPartida {
+  visibility: hidden;
+}
+.btnEmpezarDenuevo {
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #4d4d4d;
+  color: white;
+}
+@keyframes animacionBarra {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
+@media screen and (max-width: 550px) {
+  .titulo {
+    font-size: 18px;
+  }
+  .contenedor {
+    width: 200px;
+  }
+  .ruleta {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto 15px;
+  }
+  .central {
+    width: 40px;
+    top: 66px;
+  }
+  .barra {
+    width: 180px;
+    height: 15px;
+    margin: 10px auto 8px;
+  }
+  .barra_int {
+    height: 15px;
+  }
+  .empezar {
+    width: 96px;
+    height: 60px;
+    font-size: 1.1rem;
+  }
+  .premio {
+    width: 180px;
+    padding: 10px;
+    font-size: 1.3rem;
+  }
+  .invisible {
+    width: 140px;
+    margin: 2% auto;
+    padding: 10px;
+    border-radius: 6px;
+  }
+  .monedas {
+    left: 2%;
+    top: 8%;
+    width: 80px;
+  }
+  .monedas img {
+    width: 20px;
+  }
+  .tiradas {
+    right: 2%;
+    top: 8%;
+    width: 80px;
+  }
+  .tiradas img {
+    width: 20px;
+    padding: 2px;
+  }
+  .cartera, .ticket {
+    font-size: 12px;
+  }
+  .btnEmpezarDenuevo {
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+  }
+}
+
