@@ -142,7 +142,7 @@ img {
 @ media screen and (max-width: 450 px) {
 
 titulo {
-  font-size: 1 rem;
+  font-size: 18 px;
 
 }
 
@@ -166,7 +166,7 @@ titulo {
   right: 0;
   margin: auto;
   width: 30 px;
-  top:100 px;
+  top:46 px;
 }
 .barra {
   width: 180 px;
