@@ -185,8 +185,8 @@
   }
 
   .premio {
-    width: 200px;
-    margin: auto;
+    width: 300px;
+    margin: 0 auto;
     padding: 10px;
     font-size: 1.3rem;
   }
@@ -199,7 +199,7 @@
   }
 
   .monedas {
-    left: 1%;
+    left: 2%;
     top: 6%;
     width: 80px;
   }
@@ -209,7 +209,7 @@
   }
 
   .tiradas {
-    right: 1%;
+    right: 2%;
     top: 6%;
     width: 80px;
   }
@@ -226,7 +226,7 @@
 
   .btnEmpezarDenuevo {
     width: 100px;
-    height: 30px;
+    height: 40px;
     border-radius: 8px;
   }
 }
