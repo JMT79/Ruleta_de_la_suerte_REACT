@@ -139,7 +139,7 @@ img {
 }
 
 
-@ media screen and (max-width: 700 px) {
+@ media screen and (max-width:520 px) {
 
 .titulo {
   font-size: 16 px;
