@@ -139,8 +139,7 @@ img {
 }
 
 
-@media screen and (max-width:1082 px) {
-
+@media screen and (max-width:500 px) {
 .titulo {
   font-size: 16 px;
 }
@@ -217,7 +216,7 @@ img {
   margin-bottom: 20 px;
 }
 
-.btnEmpezarDenuevo{
+.btnEmpezarDenuevo {
   width: 100 px;
   height: 30 px;
   border-radius: 8 px;
