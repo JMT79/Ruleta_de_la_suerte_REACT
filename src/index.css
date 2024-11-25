@@ -9,7 +9,7 @@ body {
 }
 
 .titulo {
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: center;
   margin: 3% auto;
   color: rgba(0, 0, 0, 0.91);
@@ -174,16 +174,16 @@ body {
 
 @media screen and (max-width: 550px) {
   .titulo {
-    font-size: 18px;
+    font-size: 26px;
   }
 
   .contenedor {
-    width: 260px;
+    width: 200px;
   }
 
   .ruleta {
-    width: 240px;
-    height: 240px;
+    width: 200px;
+    height: 200px;
     margin: 0 auto 15px;
   }
 
