@@ -139,10 +139,10 @@ img {
 }
 
 
-@ media screen and (max-width: 600 px) {
+@ media screen and (max-width: 700 px) {
 
-titulo {
-  font-size: 12 px;
+.titulo {
+  font-size: 16 px;
 }
 .contenedor {
   margin: 2 % auto 0;
@@ -164,8 +164,7 @@ titulo {
   width: 30 px;
   top:20 px;
 }
-  img {
-  width: 40 %;
+
 .barra {
   width: 180 px;
   height: 15 px;
