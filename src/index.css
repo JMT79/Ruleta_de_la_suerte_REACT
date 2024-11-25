@@ -26,6 +26,7 @@
   margin: auto;
   width: 120px;
   top: 174px;
+  transform:2deg rotation;
 }
 .central img {
   width: 100%;
