@@ -139,13 +139,13 @@ img {
 }
 
 
-@media screen and (max-width:482 px) {
+@media screen and (max-width:550 px) {
 .titulo {
   font-size: 16 px;
 }
 .contenedor {
   margin: 2 % auto 0;
-  width: 200 px;
+  width: 180 px;
 }
 .ruleta {
   width: 180 px;
@@ -160,7 +160,7 @@ img {
   right: 0;
   margin:auto;
   width: 30 px;
-  top:20 px;
+  top: 60 px;
 }
 .barra {
   width: 180 px;
@@ -192,7 +192,7 @@ img {
 }
 .monedas {
   left: 1 %;
-  top: 8 %;
+  top: 2 %;
   width: 80 px;
 }
 .monedas img {
@@ -200,7 +200,7 @@ img {
 }
 .tiradas {
   right: 1 %;
-  top: 8 %;
+  top: 2 %;
   width:80 px;
 }
 .tiradas img {
@@ -208,10 +208,12 @@ img {
   padding: 2 px;
 }
 .cartera {
+  font-size:12 px;
   margin: 0 auto;
   margin-bottom: 20 px;
 }
 .ticket {
+  font-size:12 px;
   margin: 0 auto;
   margin-bottom: 20 px;
 }
