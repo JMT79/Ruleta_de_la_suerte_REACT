@@ -164,7 +164,6 @@ titulo {
   position: absolute;
   left: 0;
   right: 0;
-  margin: auto;
   width: 30 px;
   top:46 px;
 }
@@ -179,7 +178,7 @@ titulo {
 }
 .empezar {
   width: 96 px;
-  height: 40 px;
+  height: 60 px;
   font-size: 1.1 rem;
 }
 .premio {
@@ -200,18 +199,14 @@ titulo {
   visibility: hidden;
 }
 .monedas {
-  position: absolute;
   left: 1 %;
   top: 8 %;
   width: 80 px;
-  padding: 2 px;
- 
 }
 .monedas img {
   width: 20 px;
 }
 .tiradas {
-
   right: 1 %;
   top: 8 %;
   width:80 px;
@@ -233,9 +228,9 @@ titulo {
 
 }
 .btnEmpezarDenuevo{
-  width: 100px;
-  height: 30px;
-  border-radius: 8px;
+  width: 100 px;
+  height: 30 px;
+  border-radius: 8 px;
 }
   
 
