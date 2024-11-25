@@ -9,7 +9,7 @@
   position: relative;
   margin: 3 % auto 0;
   text-align: center;
-  width: 720 px;
+  width: 720px;
 }
 .ruleta {
   width: 500 px;
@@ -144,7 +144,7 @@
   font-size: 16 px;
 }
 .contenedor {
-  margin: 2 % auto 0;
+  margin: 3 % auto 0;
   width: 180 px;
 }
 .ruleta {
@@ -155,12 +155,8 @@
   margin: 0 auto 15 px;
 }
 .central {
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin:auto;
   width: 30 px;
-  top: 60 px;
+  top:60 px;
 }
 .barra {
   width: 180 px;
