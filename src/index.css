@@ -142,7 +142,7 @@ img {
 @media screen and (max-width: 450px) {
 
 titulo {
-  font-size: 2rem;
+  font-size: 1rem;
 
 }
 
@@ -150,12 +150,12 @@ titulo {
 
   margin: 2% auto 0;
 
-  width: 400px;
+  width: 200px;
 }
 
 .ruleta {
-  width: 300px;
-  height: 300px;
+  width: 160px;
+  height: 160px;
   background-size: cover;
   background-position: center;
   margin: 0 auto 15px;
@@ -166,34 +166,25 @@ titulo {
   right: 0;
   margin: auto;
   width: 60px;
-  top:96px;
+  top:120 px;
 }
 .barra {
-
   width: 180px;
   height: 15px;
-
-
   margin: 10px auto 8px;
 }
 
 .barra_int {
-
   height: 15px;
-
 }
 .empezar {
-
   width: 96px;
   height: 40px;
-
   font-size: 1.1rem;
- 
 }
-
 .premio {
-  width: 400px;
-  margin: 3% auto;
+  width: 200px;
+  margin: 4% auto;
   padding: 10px;
 
   border-radius: 8px;
@@ -211,23 +202,23 @@ titulo {
 .monedas {
   position: absolute;
   left: 1%;
-  top: 6%;
-  width: 120px;
+  top: 8%;
+  width: 80 px;
   padding: 2px;
  
 }
 .monedas img {
-  width: 40px;
+  width: 20px;
 }
 .tiradas {
 
   right: 1%;
-  top: 6%;
-  width:100px;
+  top: 8%;
+  width:80 px;
   
 }
 .tiradas img {
-  width: 40px;
+  width: 20px;
   padding: 2px;
 }
 .cartera {
