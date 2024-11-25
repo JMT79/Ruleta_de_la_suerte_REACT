@@ -25,7 +25,6 @@ body {
   align-items: center;
   min-height: 200px;
   max-height: 500px;
-  overflow: hidden;
   transition: height 0.3s ease;
 }
 
@@ -189,7 +188,7 @@ body {
 
   .central {
     width: 40px;
-    top: 74px;
+    top: 76px;
   }
 
   .barra {
