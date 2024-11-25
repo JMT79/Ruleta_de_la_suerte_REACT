@@ -3,7 +3,7 @@
 .titulo {
   font-size: 2rem;
   text-align: center;
-  margin: 1% auto;
+  margin: 4% auto;
   color: rgba(0, 0, 0, 0.91);
 }
 .contenedor {
@@ -128,7 +128,7 @@
 }
 @media screen and (max-width: 550px) {
   .titulo {
-    font-size: 18px;
+    font-size: 24px;
   }
   .contenedor {
     width: 200px;
