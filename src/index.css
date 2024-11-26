@@ -194,4 +194,63 @@
     border-radius: 8px;
   }
 }
+@media screen and (max-width: 750px) {
 
+
+.titulo {
+    font-size: 24px;
+  }
+  .contenedor {
+    width: 360px;
+  }
+  .ruleta {
+    width: 320px;
+    height: 320px;
+    margin: 0 auto 15px;
+  }
+  .central {
+    width: 60px;
+    top: 74px;
+
+  .empezar {
+    width: 96px;
+    height: 60px;
+    font-size: 1.1rem;
+  }
+  .premio {
+    width: 300px;
+    padding: 10px;
+    font-size: 1.3rem;
+  }
+  .invisible {
+    width: 200px;
+    margin: 2% auto;
+    padding: 10px;
+    border-radius: 6px;
+  }
+  .monedas {
+    left: 2%;
+    width: 120px;
+  }
+  .monedas img {
+    width: 32px;
+  }
+  .tiradas {
+    right: 2%;
+    width: 120px;
+  }
+  .tiradas img {
+    width: 32px;
+ 
+  }
+  .cartera, .ticket {
+    font-size: 12px;
+  }
+  .btnEmpezarDenuevo {
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+  }
+
+  
+}
