@@ -113,11 +113,11 @@
 }
 .btnEmpezarDenuevo {
   width: 200px;
-  height: 60px;
+  height: 70px;
   border-radius: 10px;
   background-color: #4d4d4d;
   color: white;
-  margin-bottom:2%;
+  margin-bottom:3%;
 }
 @keyframes animacionBarra {
   0% {
