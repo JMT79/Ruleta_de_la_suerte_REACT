@@ -130,7 +130,7 @@
     width: 0;
   }
 }
-@media screen and (max-width: 550px) and (min-width:320px) {
+@media screen  and (min-width:320px) {
   .titulo {
     font-size: 24px;
   }
@@ -193,8 +193,8 @@
     height: 40px;
     border-radius: 8px;
   }
-
-@media  screen and (min-width: 750px) {
+}
+@media  screen and (min-width: 551px) {
 
 .titulo {
     font-size: 18px;
