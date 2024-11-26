@@ -194,7 +194,7 @@
     border-radius: 8px;
   }
 }
-@media only screen and (max-width: 450px) and (min-width: 551px) {
+@media only screen and (max-width: 750px) and (min-width: 551px) {
 
 .titulo {
     font-size: 18px;
