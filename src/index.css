@@ -8,9 +8,10 @@
 }
 .contenedor {
   position: relative;
-  margin: 6% auto 0;
+  margin: 4% auto 0;
   text-align: center;
   width: 720px;
+  height:720px;
 }
 .ruleta {
   width: 500px;
