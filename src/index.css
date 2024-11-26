@@ -183,7 +183,7 @@
   }
   .tiradas img {
     width: 20px;
-    padding: 2px;
+    padding: 2px;https://github.com/JMT79/Ruleta_de_la_suerte_REACT/blob/main/src/index.css
   }
   .cartera, .ticket {
     font-size: 12px;
@@ -194,7 +194,7 @@
     border-radius: 8px;
   }
 }
-@media only screen and (max-width: 750px) and (min-width: 551px) {
+@media  screen and (max-width: 750px) and (min-width: 551px) {
 
 .titulo {
     font-size: 18px;
