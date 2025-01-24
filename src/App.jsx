@@ -1,5 +1,6 @@
-/* eslint-disable no-undef */
-/*
+
+/**************************************************************   Código sin optimizar   **********************************************************************
+
 import { useState, useRef } from "react";
 
 function App() {
@@ -144,6 +145,10 @@ function App() {
 
 export default App;
 */
+
+
+/**********************************************************************    Código optimizado    ***********************************************************************/
+
 import { useState, useRef, useCallback } from "react";
 
 function App() {
