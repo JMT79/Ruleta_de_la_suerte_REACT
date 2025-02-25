@@ -27,6 +27,7 @@
   margin: auto;
   width: 120px;
   top: 174px;
+transform: rotate(2deg);
   
 }
 .central img {
@@ -145,7 +146,7 @@
   .central {
     width: 36px;
     top: 60px;
-transform: rotate(3deg);
+
   }
   .barra {
     width: 180px;
