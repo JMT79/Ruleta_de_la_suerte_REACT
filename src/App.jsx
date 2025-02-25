@@ -180,6 +180,7 @@ function App() {
     setTiradas((prev) => prev - 1);
     setSituacion(1);
     girar();
+audio.play();
   }, [toggleClass]);
 
   const girar = useCallback(() => {
@@ -271,7 +272,7 @@ function App() {
 
         <div className="barraInferior">
           {tiradas >= 0 && (
-            <button className="empezar" ref={tirarRef} onClick={empezar,audio}>
+            <button className="empezar" ref={tirarRef} onClick={empezar}>
               TIRAR
             </button>
           )}
