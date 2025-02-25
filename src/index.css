@@ -145,6 +145,7 @@
   .central {
     width: 36px;
     top: 60px;
+transform: rotate(3deg);
   }
   .barra {
     width: 180px;
