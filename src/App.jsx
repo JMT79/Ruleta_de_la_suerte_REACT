@@ -159,7 +159,7 @@ function App() {
   const [monedas, setMonedas] = useState(2);
   const [tiradas, setTiradas] = useState(2);
   const [situacion, setSituacion] = useState(0);
-
+const audioRuleta = audio;
   const barraRef = useRef(null);
   const invisibleRef = useRef(null);
   const gameOverRef = useRef(null);
@@ -180,7 +180,7 @@ function App() {
     setTiradas((prev) => prev - 1);
     setSituacion(1);
     girar();
-audio.play();
+audioRuleta.play();
   }, [toggleClass]);
 
   const girar = useCallback(() => {
