@@ -150,7 +150,7 @@ export default App;
 /**********************************************************************    Código optimizado    ***********************************************************************/
 
 import { useState, useRef, useCallback } from "react";
-import audio from "./public/assets/spin.mp3";
+import audio from "../public/assets/spin.mp3";
 
 function App() {
   const [anchoBarra, setAnchoBarra] = useState(1);
