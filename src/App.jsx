@@ -150,7 +150,6 @@ export default App;
 /**********************************************************************    Código optimizado    ***********************************************************************/
 
 import { useState, useRef, useCallback } from "react";
-import audio from "../public/assets/spin.mp3";
 
 function App() {
   const [anchoBarra, setAnchoBarra] = useState(1);
@@ -159,7 +158,6 @@ function App() {
   const [monedas, setMonedas] = useState(2);
   const [tiradas, setTiradas] = useState(2);
   const [situacion, setSituacion] = useState(0);
-const audioRuleta = audio;
   const barraRef = useRef(null);
   const invisibleRef = useRef(null);
   const gameOverRef = useRef(null);
@@ -180,7 +178,6 @@ const audioRuleta = audio;
     setTiradas((prev) => prev - 1);
     setSituacion(1);
     girar();
-audioRuleta.play();
   }, [toggleClass]);
 
   const girar = useCallback(() => {
