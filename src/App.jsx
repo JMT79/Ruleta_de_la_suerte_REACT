@@ -164,7 +164,7 @@ function App() {
   const gameOverRef = useRef(null);
   const gameOver2Ref = useRef(null);
   const tirarRef = useRef(null);
-
+  const audioRuleta = new Audio('../public/assets/spin.mp3');
   const toggleClass = useCallback((ref, className) => {
     ref.current?.classList.toggle(className);
   }, []);
@@ -180,6 +180,8 @@ function App() {
     setTiradas((prev) => prev - 1);
     setSituacion(1);
     girar();
+
+audioRuleta.play();
   }, [toggleClass]);
 
   const girar = useCallback(() => {
