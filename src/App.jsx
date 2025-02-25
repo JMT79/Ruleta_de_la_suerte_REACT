@@ -164,7 +164,7 @@ function App() {
   const gameOverRef = useRef(null);
   const gameOver2Ref = useRef(null);
   const tirarRef = useRef(null);
-  const audioRuleta = new Audio('../public/assets/spin.mp3');
+  const audioRuleta = new Audio('./public/assets/spin.mp3');
   const toggleClass = useCallback((ref, className) => {
     ref.current?.classList.toggle(className);
   }, []);
